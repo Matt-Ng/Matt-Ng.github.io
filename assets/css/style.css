@@ -101,7 +101,7 @@ a {
 	-o-transition: background-color .4s linear, color .4s linear;
 	-ms-transition: background-color .4s linear, color .4s linear;
 	transition: background-color .4s linear, color .4s linear;
-	color: #1abc9c;
+	color: #1e5598;
 }
 a:hover,
 a:focus {
@@ -113,6 +113,15 @@ a:focus {
 	padding: 0px !important;
 	margin: 0px;
 }
+
+.center {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+  }
 
 
 /* FORM CONFIGURATION */
@@ -279,8 +288,7 @@ input {
 {
 	height:100%;
 	width:100%;
-	background-color:#00b3fe;
-	background-color:rgba(0,179,254,.9);
+	background-color:#3b99c1;
 	text-align:center;
 }
 
@@ -295,6 +303,12 @@ input {
 .clients .col-sm-2 {
 	height: 80px;
 	line-height: 80px;
+}
+
+.box {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #fff;
 }
 
 /* CONTACT SEPARATOR */
@@ -328,7 +342,7 @@ input {
 #f {
 	padding-top: 25px;
 	padding-bottom: 25px;
-	background-color: #22A7F0;
+	background-color: #1782bb;
 }
 
 #f i {
